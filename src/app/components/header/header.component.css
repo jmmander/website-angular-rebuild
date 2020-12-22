@@ -1,0 +1,76 @@
+.header {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: transparent;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+  text-align: center;
+  background:	transparent;
+  padding: 2.2%;
+  width: 70%;
+  font-weight: 300;
+}
+
+.landingtext {
+  animation: fadeIn 3s forwards; 
+  opacity: 0;
+}
+
+.description h1 {
+  color: rgb(255, 255, 255);
+  font-size: max(5vw, 3em);
+  letter-spacing: 10px;
+  
+  
+}
+
+.description p {
+	color: rgb(237, 239, 252);
+	font-size: max(1vw, 1.5em);
+  line-height: 1.5;
+  letter-spacing: 10px;
+  
+}
+
+
+.learnmore{
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;	
+  border: 1px solid #ffffff;
+  transition: all 0.2s;
+  font-weight:300;
+  font-size: max(1vw,1em);
+
+}
+.learnmore:hover {
+  border: 1px solid #fff;
+  color: rgb(45, 45, 45);  
+  background-color: white;
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+  
+.second {
+  animation-delay: 1s;
+}
+
+.third {
+  animation-delay: 2s;
+}
